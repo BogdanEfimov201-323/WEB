@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Nunito:wght@700&family=Poppins:wght@500&family=Work+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <title>Kembang Form</title>
+</head>
+<body>
+    <div class="Wrapper">
+        <div class="container">
+            <header class="Header__Inner">  
+                <a href="index.html" >    
+                    <img src="img/logo.jpg" alt="" class="Logo" >
+                </a>
+                <div class="menu">
+                    <button class="Header__Search"><img src="img/Header_search.svg" alt="" ></button>
+                    <a href="demo.html" class="Header__Shop"><img src="img/Header_shop.svg" alt="" ></a>
+                    <a href="#" class="Sign_Up">Sign Up</a>
+                </div>
+            </header>
+            <div class="Form_1">
+                <form name="contact" method="POST" data-netlify="true" class="Form_Body_1">
+                    <fieldset>
+                        <legend class="Form_Tittle_1">Personal information</legend>
+                        <label for="name">Name*:</label>
+                        <input placeholder="Bogdan Efimov" required type="text" id="name" name="name">
+                        <label for="Birth">Birth*:</label>
+                        <input type="date" required id="Birth" name="date">      
+                        <label for="Gender">Your Gender:</label> 
+                        <select name="Gender" id="Gender">
+                            <optgroup label="M/F">
+                                <option value="M">Male</option>
+                                <option value="F">Female</option>
+                            </optgroup>
+                        </select>
+                        <label for="Password">Password*:</label>
+                        <input type="password" required id="Password" name="password">            
+                        <label for="Free_time_1">Free time from:</label>
+                        <input type="time" id="Free_time_1" name="time">               
+                        <label for="Free_time_2">Free time till:</label>
+                        <input type="time" id="Free_time_2" name="time">                      
+                    </fieldset>
+                    <fieldset>
+                        <legend class="Form_Tittle_1">Contact information</legend>
+                        <label for="E-mail">E-mail:</label>
+                        <input placeholder="efimov@mail.ru" type="email" id="E-mail" name="email">                
+                        <label for="Phone">Phone*:</label>
+                        <input placeholder="+78005553535" required type="tel" id="Phone" name="tel">                
+                    </fieldset>
+                    <div class="Form_Buttons_1">
+                        <button type="submit" class="Form_Button_1">Send</button>
+                        <button type="reset" class="Form_Reset_1" disabled><img src="img/reset.svg" alt="«Reset data in fileds»" class="img-reset"></button>
+                    </div>
+                </form>
+            </div>
+                            <footer class="Footer">
+                    <div class="Footer_Content">
+                        <div class="Footer_1">                
+                            <img src="img/logo.jpg" alt="" class="Img_Footer">       
+                            <p class="Footer_1_3">LaslesVPN is a private virtual network that has unique features and has high security.</p>  
+                            <div class="Footer_1">                
+                                <img src="img/twitter.jpg" alt="" class="Img_Footer1">
+                                <img src="img/instagram.jpg" alt="" class="Img_Footer1">
+                                <img src="img/facebook.jpg" alt="" class="Img_Footer1">                     
+                            </div>                  
+                        </div>
+                        <div class="Footer_2">                    
+                            <p class="Footer_2_1">Product</p>                    
+                            <p class="Footer_2_2">Download</p>  
+                            <p class="Footer_2_2">Pricing</p>                 
+                            <p class="Footer_2_2">Locations</p>      
+                            <p class="Footer_2_2">Server</p>                   
+                            <p class="Footer_2_2">Countries</p>      
+                            <p class="Footer_2_2">Blog</p>                                       
+                        </div>
+                        <div class="Footer_2">                   
+                            <p class="Footer_2_1">Engage</p>                    
+                            <p class="Footer_2_2">LaslesVPN ?</p>                   
+                            <p class="Footer_2_2">FAQ</p>                 
+                            <p class="Footer_2_2">Tutorials</p>                   
+                            <p class="Footer_2_2">About Us</p>                 
+                            <p class="Footer_2_2">Privacy Policy</p>                   
+                            <p class="Footer_2_2">Terms of Service</p>                    
+                        </div>
+                        <div class="Footer_2">                   
+                            <p class="Footer_2_1">Earn Money</p>                    
+                            <p class="Footer_2_2">Affiliate</p>
+                            <p class="Footer_2_2">Become Partner</p>
+                            </div>
+                    </div>
+                </footer>
+        </div>
+    </div>
+</body>
+</html>
